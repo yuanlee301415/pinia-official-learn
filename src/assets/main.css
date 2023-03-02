@@ -1,0 +1,6 @@
+@import "./base.css";
+
+nav .router-link-active {
+    background-color: #1890ff;
+    color: #fff!important;
+}
