@@ -2,5 +2,13 @@
 
 nav .router-link-active {
     background-color: #1890ff;
-    color: #fff!important;
+    color: #fff !important;
+}
+
+.container > h2, .container > h3 {
+    margin-top: 3rem;
+}
+
+.container > h2:first-child, .container > h3:first-child {
+    margin-top: 0;
 }
