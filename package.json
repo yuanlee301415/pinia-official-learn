@@ -1,6 +1,7 @@
 {
   "name": "pinia-learn",
   "version": "1.0.0",
+  "description": "Pinia 官网学习",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",

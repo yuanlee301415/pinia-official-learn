@@ -1,6 +1,6 @@
 # pinia-learn
 
-## [Pinia](https://pinia.vuejs.org/zh/) 学习
+## [Pinia 官网](https://pinia.vuejs.org/zh/)学习
 
 ## Forked from: [Vue3-TS-Template](https://github.com/yuanlee301415/Vue3-TS-Template)
 
