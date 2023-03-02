@@ -1,10 +1,9 @@
-# Vue3-Ts-Template
+# pinia-learn
 
-```bash
-npm init vue@latest
-```
+## [Pinia](https://pinia.vuejs.org/zh/) 学习
 
-## Vue3 + TS 模板
+## Forked from: [Vue3-TS-Template](https://github.com/yuanlee301415/Vue3-TS-Template)
+
 
 This template should help get you started developing with Vue 3 in Vite.
 
