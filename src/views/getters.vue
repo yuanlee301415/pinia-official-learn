@@ -15,8 +15,6 @@
 </template>
 
 <script lang="ts" setup>
-import { reactive, ref } from "vue";
-
 import { useStateBStore } from "@/store/modules/stateB";
 
 const stateB = useStateBStore();
