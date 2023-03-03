@@ -1,4 +1,7 @@
 import type { ComponentPublicInstance, FunctionalComponent } from "vue";
+import type { Router } from "vue-router";
+
+import 'pinia'
 
 declare global {
   const __APP_VERSION__: string;
@@ -19,4 +22,11 @@ declare module "vue" {
   export type JSXComponent<Props = any> =
     | { new (): ComponentPublicInstance<Props> }
     | FunctionalComponent<Props>;
+}
+
+declare module 'pinia' {
+  export interface PiniaCustomProperties {
+    staticPrototype: string
+    router: Router
+  }
 }
