@@ -1,6 +1,6 @@
 {
   "name": "pinia-learn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pinia 官网学习",
   "scripts": {
     "dev": "vite",
