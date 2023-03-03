@@ -1,7 +1,7 @@
 import type { ComponentPublicInstance, FunctionalComponent } from "vue";
 import type { Router } from "vue-router";
 
-import 'pinia'
+import "pinia";
 
 declare global {
   const __APP_VERSION__: string;
@@ -24,9 +24,9 @@ declare module "vue" {
     | FunctionalComponent<Props>;
 }
 
-declare module 'pinia' {
+declare module "pinia" {
   export interface PiniaCustomProperties {
-    staticPrototype: string
-    router: Router
+    staticPrototype: string;
+    router: Router;
   }
 }

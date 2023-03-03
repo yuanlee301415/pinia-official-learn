@@ -35,7 +35,7 @@ function login() {
  * 订阅 action
  */
 const message = ref();
-state.$onAction(({ name, after, store, args, onError }) => {
+state.$onAction(({ name, after, args, onError }) => {
   const startTime = Date.now();
   message.value = [`Start ${name} with params: ${args}`];
   message.value.push("Loading...");

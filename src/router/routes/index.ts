@@ -68,6 +68,6 @@ export const basicRoutes = [
   GETTERS_ROUTE,
   ACTIONS_ROUTE,
   PLUGINS_ROUTE,
-// NESTED_ROUTE,
+  // NESTED_ROUTE,
   PAGE_NOT_FOUND_ROUTE,
 ];

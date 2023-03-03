@@ -1,8 +1,8 @@
 import type { PiniaPluginContext } from "pinia";
 
-import {markRaw} from "vue";
-import {router} from "@/router";
+import { markRaw } from "vue";
+import { router } from "@/router";
 
 export default function OuterPrototype({ store }: PiniaPluginContext) {
-    store.router = markRaw(router)
+  store.router = markRaw(router);
 }

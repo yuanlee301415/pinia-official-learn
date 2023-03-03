@@ -1,7 +1,5 @@
-import {defineStore} from "pinia";
+import { defineStore } from "pinia";
 
-export const useStateDStore = defineStore('stateD', {
-    state: () => ({
-
-    })
-})
+export const useStateDStore = defineStore("stateD", {
+  state: () => ({}),
+});
