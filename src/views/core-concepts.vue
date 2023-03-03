@@ -1,12 +1,20 @@
 <template>
-  <h2>useCounterStore</h2>
+  <h2>使用 Store</h2>
 
-  <pre>{{ counter }}</pre>
+  <button @click="add">add</button>
+  <pre>count:{{ count }}</pre>
 </template>
 
 <script lang="ts" setup>
 import { useCounterStore } from "@/store/modules/counter";
+import { storeToRefs } from "pinia";
 
-const counter = useCounterStore();
-console.log(counter);
+const state = useCounterStore();
+console.log(state);
+
+/**
+ * 使用 Store
+ */
+const { count } = storeToRefs(useCounterStore());
+const { add } = state;
 </script>
