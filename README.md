@@ -1,4 +1,4 @@
-# pinia-learn
+# pinia-official-learn
 
 ## [Pinia 官网](https://pinia.vuejs.org/zh/)学习
 
